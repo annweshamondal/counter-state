@@ -1,4 +1,4 @@
-import BasicCounter from "@/components/BasicCounter";
+import AdvanceCounter from "@/components/AdvanceCounter";
 import {
 	Card,
 	CardContent,
@@ -8,8 +8,8 @@ import {
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Basic | Counter State App",
-	description: "Basic Counter State App",
+	title: "Advance | Counter State App",
+	description: "Advance Counter State App",
 };
 
 const page = () => {
@@ -17,13 +17,13 @@ const page = () => {
 		<section className="grid h-[95dvh] place-items-center">
 			<Card className="w-xs">
 				<CardHeader>
-					<CardTitle className="text-center text-3xl">
-						Basic Counter State
+					<CardTitle className="text-center text-2xl">
+						Advance Counter State
 					</CardTitle>
 				</CardHeader>
 
 				<CardContent>
-					<BasicCounter />
+					<AdvanceCounter />
 				</CardContent>
 			</Card>
 		</section>
