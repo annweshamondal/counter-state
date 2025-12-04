@@ -40,27 +40,31 @@ const ExpertCounter = () => {
 			<div className="grid grid-cols-2 gap-8">
 				<Button
 					onClick={minus}
-					className="cursor-pointe"
-					variant={"destructive"}>
+					className="cursor-pointer"
+					variant={"destructive"}
+					disabled={count < 1}>
 					<MinusCircleIcon /> Minus 1
 				</Button>
 
 				<Button
 					onClick={plus}
-					className="cursor-pointer">
+					className="cursor-pointer"
+					disabled={count > 99}>
 					<PlusCircleIcon /> Plus 1
 				</Button>
 
 				<Button
 					onClick={minusTen}
-					className="cursor-pointe"
-					variant={"destructive"}>
+					className="cursor-pointer"
+					variant={"destructive"}
+					disabled={count < 10}>
 					<MinusCircleIcon /> Minus 10
 				</Button>
 
 				<Button
 					onClick={plusTen}
-					className="cursor-pointer">
+					className="cursor-pointer"
+					disabled={count > 90}>
 					<PlusCircleIcon /> Plus 10
 				</Button>
 			</div>

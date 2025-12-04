@@ -24,7 +24,7 @@ const BasicCounter = () => {
 			<div className="grid grid-cols-2 gap-8">
 				<Button
 					onClick={minus}
-					className="cursor-pointe"
+					className="cursor-pointer"
 					variant={"destructive"}>
 					<MinusCircleIcon /> Minus 1
 				</Button>

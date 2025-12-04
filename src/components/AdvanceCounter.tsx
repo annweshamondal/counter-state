@@ -32,7 +32,7 @@ const AdvanceCounter = () => {
 			<div className="grid grid-cols-2 gap-8">
 				<Button
 					onClick={minus}
-					className="cursor-pointe"
+					className="cursor-pointer"
 					variant={"destructive"}>
 					<MinusCircleIcon /> Minus 1
 				</Button>
@@ -45,7 +45,7 @@ const AdvanceCounter = () => {
 
 				<Button
 					onClick={minusTen}
-					className="cursor-pointe"
+					className="cursor-pointer"
 					variant={"destructive"}>
 					<MinusCircleIcon /> Minus 10
 				</Button>
